@@ -18,7 +18,7 @@ export const receiveMovie = (movieTitle, index, json)=>({
 
 export const fetchMovie = (movieTitle, index) => dispatch =>{
     dispatch(requestMovie(movieTitle, index))
-   return fetch(`http://www.omdbapi.com/?t=${movieTitle}&apikey=${API_KEY}`)
+   return fetch(`https://www.omdbapi.com/?t=${movieTitle}&apikey=${API_KEY}`)
    .then(response => response.json())
    .then(json => dispatch(receiveMovie(movieTitle, index, json)))
 }
