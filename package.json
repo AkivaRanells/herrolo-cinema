@@ -19,6 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -31,8 +33,6 @@
     "not op_mini all"
   ],
   "homepage": "http://AkivaRanells.github.io/herrolo-cinema",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
