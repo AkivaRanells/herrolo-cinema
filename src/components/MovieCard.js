@@ -11,9 +11,7 @@ class MovieCard extends Component {
         let title = movieTitle.toLowerCase()
         let firstLetter = /(^|[^a-z])[a-z]/g
         let capitalizeFirstLetter = title.replace(firstLetter, this.upperCase)
-        console.log(capitalizeFirstLetter)
         let replaceUnwantedCharacters =  capitalizeFirstLetter.replace(/([^\sa-zA-Z])/g, '')
-        console.log(replaceUnwantedCharacters)
         return replaceUnwantedCharacters
     }
     upperCase=(str)=>{
