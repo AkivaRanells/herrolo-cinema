@@ -11,18 +11,15 @@ import {
 const items = [
   {
     src: 'https://i.imgur.com/coUQtBy.jpg',
-    altText: '',
-    caption: 'Create Your Movie List'
+    altText: ''
   },
   {
     src:'https://throughthepanes.files.wordpress.com/2012/10/netflix-movie-info.png',
-    altText: '',
-    caption: 'Edit Movies On Your List'
+    altText: ''
   },
   {
     src: 'https://i.imgur.com/JrSiM.jpg',
-    altText: '',
-    caption: 'Add Movies To Your List'
+    altText: ''
   }
 ];
 

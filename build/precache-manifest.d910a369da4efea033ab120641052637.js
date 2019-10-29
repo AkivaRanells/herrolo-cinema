@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/herrolo-cinema/static/js/runtime~main.33c9cf86.js"
   },
   {
-    "revision": "96c8d61d2d939c7621ef",
-    "url": "/herrolo-cinema/static/js/main.96c8d61d.chunk.js"
+    "revision": "ac78802c27591a182eca",
+    "url": "/herrolo-cinema/static/js/main.ac78802c.chunk.js"
   },
   {
     "revision": "29c3fcb7ada9669b4a2f",
     "url": "/herrolo-cinema/static/js/1.29c3fcb7.chunk.js"
   },
   {
-    "revision": "96c8d61d2d939c7621ef",
+    "revision": "ac78802c27591a182eca",
     "url": "/herrolo-cinema/static/css/main.d37c9b68.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/herrolo-cinema/static/css/1.31791f09.chunk.css"
   },
   {
-    "revision": "b9ae7985f753031b1814ec683897d15b",
+    "revision": "18c50e38aa697466fdcc412cf504aaff",
     "url": "/herrolo-cinema/index.html"
   }
 ];
