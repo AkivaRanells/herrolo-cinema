@@ -1,6 +1,7 @@
 import 'babel-polyfill';
 import 'react-app-polyfill/ie9';
 import 'react-app-polyfill/stable';
+import 'core-js/stable';
 import React from 'react'
 import { render } from 'react-dom'
 import App from './containers/App'
