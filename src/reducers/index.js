@@ -1,5 +1,3 @@
-import 'react-app-polyfill/ie9';
-import 'react-app-polyfill/stable';
 import { combineReducers, bindActionCreators } from 'redux'
 import { RECEIVE_MOVIE, REQUEST_MOVIE, EDIT_MOVIE, DELETE_MOVIE, ADD_MOVIE } from '../constants/ActionTypes'
 let idCounter = 0;
