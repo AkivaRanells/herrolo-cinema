@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/herrolo-cinema/precache-manifest.d910a369da4efea033ab120641052637.js"
+  "/herrolo-cinema/precache-manifest.e79fe6ad0858f1ec8d670cc20c850fc7.js"
 );
 
 workbox.clientsClaim();
